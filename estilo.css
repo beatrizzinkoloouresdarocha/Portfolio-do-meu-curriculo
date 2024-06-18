@@ -11,6 +11,10 @@ nav {
     background-color: #333;
     color: #fff;
     padding: 15px;
+    position: fixed; /* Adiciona posicionamento fixo ao menu */
+    top: 0; /* Fixa o menu no topo */
+    width: 100%; /* Garante que o menu ocupe toda a largura */
+    z-index: 1000; /* Garante que o menu esteja acima do conteúdo */
 }
 
 nav ul {
@@ -38,7 +42,7 @@ nav ul li a:hover {
 
 main {
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 80px auto 20px; /* Ajusta a margem superior para deixar espaço para o menu fixo */
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -54,7 +58,6 @@ h2 {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 20px;
-
 }
 
 ul, ol {

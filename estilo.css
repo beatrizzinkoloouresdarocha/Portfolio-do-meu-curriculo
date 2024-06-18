@@ -45,6 +45,8 @@ main {
     margin: 80px auto 20px;
     background-color: #fff;
     border-radius: 10px;
+    padding: 20px; /* Adicionado padding para evitar texto colado nas bordas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar o conteúdo */
 }
 
 section {
@@ -118,6 +120,7 @@ footer a:hover {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .btn:hover {
     background-color: #0056b3;
 }
